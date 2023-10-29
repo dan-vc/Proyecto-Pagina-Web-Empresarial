@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrend - Moda Sostenible y Consciente</title>
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta name="author" content="EcoTrend">
+    <meta name="keywords"
+        content="EcoTrend, moda sostenible, ropa ecológica, moda consciente, ropa ética, moda responsable">
+    <meta name="description"
+        content="EcoTrend: Descubre la moda sostenible y consciente. Ofrecemos ropa y accesorios de alta calidad, producidos de manera sostenible y respetuosa con el medio ambiente. ¡Únete a nuestra revolución de la moda ética!">
+
+    <!-- BootStrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="container-xxl border-bottom py-2">
+        <div class="row">
+            <a href="#" class="d-flex align-items-center justify-content-center col-sm-1">
+                <img src="img/logo.png" alt="Logo" class="logo">
+            </a>
+            <div class="col-2"></div>
+            <div class="col-sm-6 text-center">
+                <h1>Moda Sostenible</h1>
+                <p>Viste con Ética y Elegancia</p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <div id="nav" class="container-xxl sticky-top  p-0">
+        <nav id="navbar" class="navbar-expand-lg d-flex flex-wrap align-items-center justify-content-between"
+            data-bs-theme="dark">
+            <a id="brand-name" href="#" class="d-flex align-items-center px-4 py-1 fs-1">
+                EcoTrend
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon me-4"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav nav-pills col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link p-4 link-body-emphasis active">Inicio</a></li>
+                    <li><a href="#acercade" class="nav-link p-4 link-body-emphasis">Acerca de</a></li>
+                    <li><a href="#productos" class="nav-link p-4 link-body-emphasis">Productos</a></li>
+                    <li><a href="#blog" class="nav-link p-4 link-body-emphasis">Blog</a></li>
+                    <li><a href="#contacto" class="nav-link p-4 link-body-emphasis">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Container -->
+    <main class="container-xxl p-0">
+        <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+
+            <!-- Carrousel -->
+            <div class="container-xxl p-0">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/portada1.png" class="d-block w-100" alt="Portada">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/portada2.png" class="d-block w-100" alt="Portada">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/portada3.png" class="d-block w-100" alt="Portada">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/portada4.png" class="d-block w-100" alt="Portada">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Seccion Acerca de -->
+            <section id="acercade" class="container-xxl p-0 position-relative overflow-hidden">
+                <img src="img/about-us.jpg" class="img-fluid acerca-de" alt="Acerca de Nosotros">
+                <div id="acerca-description"
+                    class="container mw-100 position-absolute top-50 end-0 translate-middle-y d-flex flex-column align-items-center gap-3 p-5">
+                    <i class="bi bi-buildings fs-1"></i>
+                    <h2 class="fw-bold">Acerca de la compañia</h2>
+                    <p class="px-5">En <strong>EcoTrend</strong>, estamos comprometidos con la creación de una
+                        revolución en la moda, donde la sostenibilidad y la elegancia se fusionan para ofrecer una
+                        experiencia de vestimenta única y consciente. Nuestra historia se basa en la pasión por la moda
+                        y el firme compromiso con el planeta.</p>
+                </div>
+            </section>
+
+            <!-- Seccion Mision Vision e Historia -->
+            <section id="m-v-historia" class="container-xxl p-5">
+                <div class="container-fluid p-2">
+                    <h2 class="text-center text-white">Misión, Visión e Historia</h2>
+
+                    <div class="row mt-5 pt-5 row-gap-4">
+                        <div class="col-sm-4 px-4">
+                            <a data-bs-toggle="collapse" href="#misionCollapse" aria-expanded="false"
+                                class="fs-3 text-white text-decoration-underline d-flex align-items-center gap-3 fw-bold">
+                                <div class="green-circle"></div>
+                                Misión
+                            </a>
+                            <div class="collapse multi-collapse" id="misionCollapse">
+                                <div class="collapse-description">
+                                    En <strong>EcoTrend</strong>, nuestra misión es liderar el camino hacia un mundo
+                                    donde la moda y la sostenibilidad se entrelacen en armonía. Nos esforzamos por
+                                    ofrecer productos de moda de alta calidad, producidos de manera sostenible y ética,
+                                    para empoderar a las personas a tomar decisiones de compra responsables sin
+                                    comprometer el estilo. Creemos que la moda consciente puede ser accesible y elegante
+                                    para todos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 px-4">
+                            <a data-bs-toggle="collapse" href="#visionCollapse" aria-expanded="false"
+                                class="fs-3 text-white text-decoration-underline d-flex align-items-center gap-3 fw-bold">
+                                <div class="green-circle"></div>
+                                Visión
+                            </a>
+                            <div class="collapse multi-collapse" id="visionCollapse">
+                                <div class="collapse-description">
+                                    Nuestra visión es crear una revolución en la moda, donde cada prenda y accesorio que
+                                    creamos cuente una historia de sostenibilidad y respeto por el planeta. Vemos un
+                                    futuro en el que la industria de la moda se transforme, donde la sostenibilidad se
+                                    convierta en el estándar y los consumidores tomen decisiones informadas que
+                                    promuevan un mundo más saludable y equitativo.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 px-4">
+                            <a data-bs-toggle="collapse" href="#historiaCollapse" aria-expanded="false"
+                                class="fs-3 text-white text-decoration-underline d-flex align-items-center gap-3 fw-bold">
+                                <div class="green-circle"></div>
+                                Historia
+                            </a>
+                            <div class="collapse multi-collapse" id="historiaCollapse">
+                                <div class="collapse-description">
+                                    La historia de <strong>EcoTrend</strong> comenzó con un grupo de apasionados amantes
+                                    de la moda que compartían una visión común: transformar la industria de la moda en
+                                    beneficio del medio ambiente y la sociedad. Fundada en 1998, nuestra empresa se basó
+                                    en la creencia de que la moda no debería ser una carga para el planeta ni para las
+                                    personas involucradas en su producción.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Seccion Productos -->
+            <section id="productos" class="container-xxl p-5">
+                <div class="container-fluid text-center mb-5">
+                    <h2 class="fw-bold">Nuestros Productos</h2>
+                    <p>Descubre Nuestra Colección Sostenible</p>
+                </div>
+                <div class="row justify-content-evenly">
+                    <div class="card text-center mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Ropa de Oficina Sostenible</h5>
+                            <img src="img/ropa-de-oficina.webp" alt="Card Image" class="img-thumbnail card-image my-3">
+                            <p class="card-text fst-italic">Eleva tu estilo en la oficina con nuestra colección de
+                                ropa de oficina sostenible.</p>
+                            <a href="#" class="btn btn-green">Ver más...</a>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Moda de Temporada</h5>
+                            <img src="img/moda-de-temporada.jpg" alt="Card Image" class="img-thumbnail card-image my-3">
+                            <p class="card-text fst-italic">Abraza las últimas tendencias con nuestra colección de
+                                moda de temporada.</p>
+                            <a href="#" class="btn btn-green">Ver más...</a>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Joyas Ecológicas</h5>
+                            <img src="img/joyas-ecologicas.jpg" alt="Card Image" class="img-thumbnail card-image my-3">
+                            <p class="card-text fst-italic">Realza tu estilo con nuestra colección de joyas
+                                ecológicas. Cada pieza está creada con materiales reciclados y sostenibles, para que
+                                puedas brillar con confianza sabiendo que tu elección de accesorios respeta el
+                                planeta.</p>
+                            <a href="#" class="btn btn-green">Ver más...</a>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Ropa Deportiva Sostenible</h5>
+                            <img src="img/ropa-deportiva.jpg" alt="Card Image" class="img-thumbnail card-image my-3">
+                            <p class="card-text fst-italic">Encuentra el equilibrio perfecto entre comodidad y
+                                sostenibilidad con nuestra colección de ropa deportiva sostenible.</p>
+                            <a href="#" class="btn btn-green">Ver más...</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Seccion Blog -->
+            <section id="blog" class="container-xxl p-5">
+                <div class="container-fluid text-center mb-5">
+                    <h2 class="fw-bold">Nuestro Blog</h2>
+                </div>
+                <div class="container w-75 blog-container p-5">
+                    <a href="#"
+                        class="row pb-4 mb-4 justify-content-center align-items-center text-black text-decoration-none">
+                        <div class="col-lg-4 blog-description">
+                            <h3 class="blog-title">7 Razones para Elegir Ropa de Oficina Sostenible</h3>
+                            <p class="blog-text">En esta entrada, exploramos por qué deberías considerar la ropa de
+                                oficina sostenible en tu guardarropa profesional.</p>
+                            <p class="blog-date fst-italic">10/03/2023</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/blog-img1.jpeg" alt="Blog Image" class="img-fluid img-thumbnail blog-img">
+                        </div>
+                    </a>
+                    <a href="#" class="row justify-content-center align-items-center text-black text-decoration-none">
+                        <div class="col-lg-4 blog-description">
+                            <h3 class="blog-title">Descubre la Moda de Temporada en EcoTrend</h3>
+                            <p class="blog-text">Esta entrada de blog te lleva a un viaje a través de la moda de
+                                temporada en EcoTrend.</p>
+                            <p class="blog-date fst-italic">28/10/2023</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/blog-img2.webp" alt="Blog Image" class="img-fluid img-thumbnail blog-img">
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Seccion Contacto -->
+            <section id="contacto" class="container-xxl p-5">
+                <div class="row text-white">
+                    <div class="col-4"></div>
+                    <form class="col-md-4">
+                        <h2 class="text-center mb-5">Contacto</h2>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Ingrese su correo electrónico">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" id="comentarios" rows="3" name="comentarios"
+                                placeholder="Ingresa tu mensaje"></textarea>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input type="checkbox" class="form-check-input">
+                            <div class="form-check-label">Acepto recibir noticias y actualizaciones acerca de Ecotrend.
+                            </div>
+                        </div>
+                        <div class="row w-75 m-auto">
+                            <button type="submit" class="btn btn-green py-2">Enviar</button>
+                        </div>
+                    </form>
+                    <div class="col-4"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-xxl p-5 m-auto bg-dark text-white">
+            <div class="row justify-content-center row-gap-5">
+                <div class="col-sm-3 text-center">
+                    <img src="img/logo.png" alt="" width="200px">
+                </div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center">
+                    <h3 class="text-center">Contacto</h3>
+                    <div class="container mt-4 d-flex flex-column justify-content-between">
+                        <p class="m-0">WhatsApp: 910 883 895</p>
+                        <p class="m-0">Correo: ecotrend@gmail.com</p>
+                        <p class="m-0">Dirección: Av. Carriola 675 - SJL</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center gap-4">
+                    <h3 class="text-center">Redes</h3>
+                    <div class="container fs-1 d-flex justify-content-evenly gap-3">
+                        <a href="https://twitter.com" target="_blank" class="text-white"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" class="text-white"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="text-white"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="text-white"><i
+                                class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

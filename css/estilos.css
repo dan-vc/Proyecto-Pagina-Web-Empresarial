@@ -1,0 +1,133 @@
+:root {
+    --verde: #6BB76D;
+    --beige: #e6d2c5;
+    --beige-claro: #fff1e8;
+    --azul: #3B5998;
+    --gris: #A3A3A3;
+}
+
+body {
+    background: var(--beige-claro);
+}
+
+header {
+    background: var(--beige-claro);
+}
+
+.logo {
+    width: 100px;
+}
+
+header h1 {
+    color: var(--verde);
+}
+
+header p {
+    color: var(--gris);
+    font-weight: bold;
+}
+
+#nav {
+    background: var(--verde);
+}
+
+#brand-name {
+    color: var(--beige-claro);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link {
+    border-radius: 0;
+}
+
+.nav-link.active {
+    background-color: var(--azul) !important;
+    color: white !important;
+    border-radius: 0;
+}
+
+.acerca-de {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#acerca-description {
+    width: 700px;
+    text-align: justify;
+}
+
+#m-v-historia {
+    background: var(--azul);
+}
+
+.green-circle {
+    background: var(--verde);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.collapse-description {
+    margin-top: 1rem;
+    margin-left: calc(25px + 1rem);
+    text-align: justify;
+    color: white;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    background: var(--beige);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    width: 65%;
+    margin: auto;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-text {
+    max-height: 3rem;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.btn-green {
+    background: var(--verde);
+    color: white;
+}
+
+.btn-green:hover {
+    background: #61a965;
+    color: white;
+}
+
+.blog-container {
+    background: var(--verde);
+}
+
+.blog-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#contacto {
+    background: var(--azul);
+}
